@@ -1,0 +1,11 @@
+body {
+  font-family: var(--base-font-family);
+  color: var(--color-light);
+  background-color: var(--color-dark);
+}
+
+.container {
+  max-width: calc(var(--container-width) + var(--container-padding-x) * 2);
+  padding-inline: var(--container-padding-x);
+  margin: 0 auto;
+}
